@@ -1,0 +1,97 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.App-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.initial-value-main {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.max-value-main {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+input:focus {
+  outline: none;
+}
+
+.counter-main {
+  margin-top: 10px;
+  display: flex;
+  height: 60px;
+
+  font-weight: bold;
+}
+
+.decrement-btn {
+  width: 60px;
+  color: #b34040;
+  border: 1px solid #c67070;
+  border-radius: 8px 0 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.counter {
+  width: 50px;
+  padding: 0 5px 0 5px;
+  background-color: #fbe9e9;
+  color: #b34040;
+  border: 1px solid #c67070;
+  border-left: 0;
+  border-right: 0;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.counter-input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #fbe9e9;
+  color: #b34040;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.increment-btn {
+  width: 60px;
+  background-color: #b34040;
+  border: 1px solid #c67070;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
